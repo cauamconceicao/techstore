@@ -29,8 +29,7 @@ export default function Cart() {
         total,
       })
       clearCart()
-      navigate("/")
-      alert("Pedido realizado com sucesso!")
+      navigate("/order-success")
     } catch (err) {
       console.log(err)
     }

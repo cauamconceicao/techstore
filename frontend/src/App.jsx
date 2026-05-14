@@ -5,6 +5,8 @@ import Product from "./pages/Product"
 import Cart from "./pages/Cart"
 import Login from "./pages/Login"
 import Register from "./pages/Register"
+import OrderSuccess from "./pages/OrderSuccess"
+import Admin from "./pages/Admin"
 
 export default function App() {
   return (
@@ -16,6 +18,8 @@ export default function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/order-success" element={<OrderSuccess />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </div>
   )
